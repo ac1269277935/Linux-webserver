@@ -6,9 +6,12 @@
 主要工作：  
 1.利用I/O复用技术与EPOll线程池实现多线程的Proactor高并发服务器
 2.利用正则表达式与有限状态机解析HTTP请求报文，实现处理静态资源的需求
-主要成果：经过Webbench压力测试，可以稳定实现一万的并发连接数据交换
+主要成果：经过Webbench压力测试，可以稳定实现两万的并发连接数据交换
 
 10000并发测试结果
 
 ![image](https://user-images.githubusercontent.com/62527710/235332706-7ea3c805-536a-4580-b283-0100067d582c.png)
 
+20000并发测试结果
+
+![image](https://user-images.githubusercontent.com/62527710/235332760-3b627e00-3c87-4669-bca4-e698ae88a75c.png)
